@@ -4,9 +4,9 @@
 	--font-heading: 'Big Shoulders Display', cursive;
 
 	/* COLORS */
-	--color-primary-orange: rgb(227, 136, 38);
-	--color-primary-cyan: rgb(0, 105, 112);
-	--color-primary-dark-cyan: rgb(0, 66, 65);
+	--color-primary-orange: #e38826;
+	--color-primary-cyan: #006970;
+	--color-primary-dark-cyan: #004241;
 	/* paragraphs */
 	--color-white: rgba(255, 255, 255, 0.75);
 	/* background, headings, buttons */
@@ -33,4 +33,16 @@ body {
 	color: var(--color-white);
 	line-height: 1;
 	background-color: var(--color-light-gray);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1rem;
+	max-width: 32rem;
+	overflow: hidden;
 }
