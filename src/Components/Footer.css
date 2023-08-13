@@ -1,7 +1,8 @@
 .attribution {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	text-align: center;
 	color: var(--color-primary-dark-cyan);
+	padding-bottom: 2rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
