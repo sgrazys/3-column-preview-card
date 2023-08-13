@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Button.css';
 
 function Button({ color }) {
 	const [isHover, setIsHover] = useState(false);
@@ -18,7 +17,6 @@ function Button({ color }) {
 
 	return (
 		<button
-			className='btn'
 			style={btnStyle}
 			onMouseEnter={() => setIsHover(!isHover)}
 			onMouseLeave={() => setIsHover(false)}

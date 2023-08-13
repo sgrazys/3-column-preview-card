@@ -1,14 +1,14 @@
-import { IconSedan } from '../icons/vehicles';
 import Button from './Button';
+
 import './Card.css';
 
-function Card({ heading, content, bgColor }) {
+function Card({ heading, content, bgColor, children }) {
 	return (
 		<div
 			className='card'
 			style={{ backgroundColor: bgColor }}
 		>
-			<IconSedan />
+			{children}
 			<h1 className='heading'>{heading}</h1>
 			<p className='content'>{content}</p>
 			<Button color={bgColor} />
