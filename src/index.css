@@ -18,6 +18,18 @@ html {
 	font-size: 62.5%;
 }
 
+@media only screen and (min-width: 90em) {
+	html {
+		font-size: 75%;
+	}
+}
+
+@media only screen and (min-width: 112.5em) {
+	html {
+		font-size: 80%;
+	}
+}
+
 body,
 body *,
 body *::after,
@@ -39,7 +51,7 @@ body {
 	align-items: center;
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 64em) {
 	body {
 		height: 100vh;
 	}
@@ -56,9 +68,32 @@ body {
 	margin: 3rem 0;
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 42em) {
+	.app-container {
+		max-width: 60rem;
+	}
+}
+
+@media only screen and (min-width: 64em) {
 	.app-container {
 		flex-direction: row;
-		max-width: 96rem;
+		max-width: 92rem;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media only screen and (min-width: 90em) {
+	.app-container {
+		max-width: 105rem;
+	}
+}
+@media only screen and (min-width: 90em) {
+	.app-container {
+		max-width: 105rem;
+	}
+}
+@media only screen and (min-width: 112.5em) {
+	.app-container {
+		max-width: 140rem;
 	}
 }

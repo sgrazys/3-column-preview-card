@@ -20,7 +20,7 @@
 <a href="https://github.com/sgrazys/3-column-preview-card"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="https://sgrazys.github.io/to-do-list/">DEMO</a>
+<a href="https://sgrazys.github.io/3-column-preview-card/">DEMO</a>
 <!-- ·
 <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
 ·
@@ -73,7 +73,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [https://github.com/sgrazys/3-column-preview-card](https://github.com/sgrazys/3-column-preview-card)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [https://sgrazys.github.io/3-column-preview-card/](https://sgrazys.github.io/3-column-preview-card/)
 
 ### Built With
 
@@ -169,7 +169,7 @@ Saulius Grazys
 [![Gmail][Gmail]][Gmail-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Project Link: [https://sgrazys.github.io/Trillo/](https://sgrazys.github.io/Trillo/)
+Project Link: [https://sgrazys.github.io/3-column-preview-card/](https://sgrazys.github.io/3-column-preview-card/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
